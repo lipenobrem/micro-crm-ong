@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}ONG Esperança{% endblock %}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">ONG Esperança</div>
+        <div class="links">
+            <a href="{{ url_for('web.home') }}">Início</a>
+            <a href="https://t.me/ong_felipe_crm_bot" target="_blank" class="nav-btn">Falar com o Assistente</a>
+        </div>
+    </nav>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+   <footer>
+        <p>&copy; 2026 ONG Esperança. Transparência e Tecnologia a favor da comunidade.</p>
+    </footer>
+</body>
+</html>

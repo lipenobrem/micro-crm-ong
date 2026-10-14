@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}Início | ONG Esperança{% endblock %}
+
+{% block content %}
+<div class="hero">
+    <h1>O Seu Apoio Transforma Vidas</h1>
+    <p>Junte-se a nós na missão de promover educação e desenvolvimento comunitário. Cada doação e cada hora voluntária constroem um futuro mais justo e próspero.</p>
+    <a href="https://t.me/ong_felipe_crm_bot" target="_blank" class="btn-telegram">Quero Ajudar Agora</a>
+</div>
+
+<div class="dashboard-impacto">
+    <div class="header-impacto">
+        <h2>O Nosso Impacto em 2026</h2>
+        <span class="badge-transparencia">Total de doações</span>
+    </div>
+
+    <div style="position: relative; height: 350px; width: 100%;">
+        <canvas id="graficoImpacto"></canvas>
+    </div>
+</div>
+
+
+<script>
+    window.graficoLabels = {{ labels | tojson }};
+    window.graficoValores = {{ valores | tojson }};
+</script>
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+{% endblock %}
