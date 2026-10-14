@@ -1,8 +1,8 @@
 # 🤝 Micro-CRM para ONGs com Bot de Telegram
 
-> Um sistema completo de Customer Relationship Management (CRM) construído em Python, desenhado especificamente para Organizações Não Governamentais (ONGs). O sistema integra um painel administrativo web e um assistente virtual de triagem via **Telegram**.
+> Um mini sistema de Customer Relationship Management (CRM) construído em Python, desenhado especificamente para Organizações Não Governamentais (ONGs). O sistema integra um painel administrativo web e um assistente virtual de triagem via **Telegram**.
 
-Este projeto foi desenvolvido com o objetivo de otimizar o atendimento e a gestão de contatos de instituições do terceiro setor, aplicando conceitos de arquitetura modular, integração de backend com banco de dados relacional e exposição de webhooks locais para comunicação em tempo real com a API do Telegram.
+Este projeto foi desenvolvido para a matéria de projeto de extensão do 4° semestre com o objetivo de otimizar o atendimento e a gestão de contatos de instituições do terceiro setor, aplicando conceitos de arquitetura modular, integração de backend com banco de dados relacional e exposição de webhooks locais para comunicação em tempo real com a API do Telegram.
 
 ---
 
@@ -68,5 +68,5 @@ Este projeto foi desenvolvido com o objetivo de otimizar o atendimento e a gest�
    ngrok http 5000
 
 ## 👨‍💻 Desenvolvedor
-**Felipe Nobre**
+**Felipe Nobre Martiniano**
 Desenvolvido unindo conhecimentos de análise de sistemas, automação, backend e interfaces web.
