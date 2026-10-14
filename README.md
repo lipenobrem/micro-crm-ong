@@ -57,13 +57,10 @@ Este projeto foi desenvolvido para a matéria de projeto de extensão do 4° sem
    python -m venv venv
    .\venv\Scripts\activate
 
-3. **Instale as dependências:**
-   pip install -r requirements.txt
-
-4. **Inicie a Aplicação Web:**
+3. **Inicie a Aplicação Web:**
    python main.py
 
-5. **Inicie o Túnel Webhook (Ngrok):**
+4. **Inicie o Túnel Webhook (Ngrok):**
    Em um novo terminal, exponha a porta local do servidor (ex: 5000):
    ngrok http 5000
 
