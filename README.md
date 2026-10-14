@@ -1,6 +1,6 @@
 # 🤝 Micro-CRM para ONGs
 
-Um sistema de Customer Relationship Management (CRM) leve e focado em Organizações Não Governamentais (ONGs), integrando gestão web e comunicação direta via WhatsApp. 
+Um  mini sistema de Customer Relationship Management (CRM) leve e focado em Organizações Não Governamentais (ONGs), integrando gestão web e comunicação direta via WhatsApp. 
 
 Este projeto foi desenvolvido como Projeto de Extensão do 4º semestre do curso de Análise e Desenvolvimento de Sistemas, com o objetivo de otimizar o atendimento e a gestão de contatos de instituições do terceiro setor.
 
